@@ -1,0 +1,17 @@
+{
+  "name": "decoratedversioning",
+  "version": "1.0.0",
+  "description": "Testing phase for a decorator, sub-app versioning control API service",
+  "main": "server/main.js",
+  "scripts": {
+    "test": "jest main.test.js"
+  },
+  "author": "Andrew Garvin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chalk": "^2.3.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.2"
+  }
+}
