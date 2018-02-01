@@ -16,4 +16,4 @@ setup(app)
 app.use('/api/v1', v1)
 app.use('/api/v2', v2)
 
-app.listen(port, _=> console.log(`listening on port ${chalk.cyan(port)}`))
+    app.listen(port, _=> console.log(`listening on port ${chalk.cyan(port)}`))
